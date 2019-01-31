@@ -1,0 +1,11 @@
+{
+  "name": "ffxiv-keyhint",
+  "version": "1.0.0",
+  "description": "Translate numeric music score to ffxiv keyhints",
+  "main": "keyhint.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Howard",
+  "license": "GPL-3.0-or-later"
+}
