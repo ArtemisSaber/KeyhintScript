@@ -15,7 +15,7 @@ Use terminal and run command
 ```bash
 $ node ./keyhint.js filename
 ```
-filename parameter is the file that contains your scores
-filename 参数为包含谱子的文件名
-The script will automatic generate a keyhint text file under the repo directory
-脚本将自动在Repo根目录下生成按键提示文本文件
+filename parameter is the file that contains your scores  
+filename 参数为包含谱子的文件名  
+The script will automatic generate a keyhint text file under the repo directory  
+脚本将自动在Repo根目录下生成按键提示文本文件  
