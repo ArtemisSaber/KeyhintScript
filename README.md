@@ -8,8 +8,8 @@ Clone this repo to your local machine at any desired location
 将Repo克隆到本地任意目录  
 Copy or make a file for your scores  
 复制或者新建一个包含谱子的文件  
-Check the file for any non-note anormaly and remove anything that is not a note
-检查文件中是否存在非音符并去除非音符字符
+Check the file for any non-note anormaly and remove anything that is not a note  
+检查文件中是否存在非音符并去除非音符字符  
 Use terminal and run command  
 使用命令行工具执行命令  
 ```bash
