@@ -19,3 +19,8 @@ filename parameter is the file that contains your scores
 filename 参数为包含谱子的文件名  
 The script will automatic generate a keyhint text file under the repo directory  
 脚本将自动在Repo根目录下生成按键提示文本文件  
+
+# Support
+Only support this layout now  
+目前仅支持该按键布局  
+![KeyboardLayout](https://i.ibb.co/TwVP2ZT/layout.jpg)
