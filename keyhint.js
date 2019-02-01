@@ -5,7 +5,23 @@ var fs = require('fs')
 if (!args[0]) {
     args[0] = ".\\Dragonsong.txt"
 }
-var KeyMapPromise = getKeyMap()
+if(!args[1]){
+    args[1] = './keymap.json'
+}
+var getKeyMap =  (mapFile) => {
+    return new Promise((resolve, reject) => {
+        fs.readFile(mapFile, 'utf-8', (err, contents) => {
+            if (err) {
+                reject(err)
+            }
+            else {
+                resolve(JSON.parse(contents))
+            }
+        })
+    })
+}
+
+var KeyMapPromise = getKeyMap(args[1])
 KeyMapPromise.then(keyMap => {
     fs.readFile(args[0], 'utf-8', (error, contents) => {
         if (error) {
@@ -28,20 +44,6 @@ KeyMapPromise.then(keyMap => {
 }, err => {
     console.log("Failed to read keyboard mapping \n error: " + err)
 })
-
-
-function getKeyMap () {
-    return new Promise((resolve, reject) => {
-        fs.readFile('./keymap.json', 'utf-8', (err, contents) => {
-            if (err) {
-                reject(err)
-            }
-            else {
-                resolve(JSON.parse(contents))
-            }
-        })
-    })
-}
 
 var createKeyHintName = (fileName) => {
     var realName = fileName.split('\\')[1]
