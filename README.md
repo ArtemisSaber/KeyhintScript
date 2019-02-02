@@ -3,6 +3,9 @@ Only accept numeric scores
 仅支持简谱，三个八度内  
 Please make sure only notes are contained   
 请使用前确认谱子中有且仅有音符  
+# Dependency  
+NodeJS Environment  
+需要NodeJS环境运行  
 # Usage  
 Clone this repo to your local machine at any desired location  
 将Repo克隆到本地任意目录  
