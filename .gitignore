@@ -75,3 +75,10 @@ typings/
 # FuseBox cache
 .fusebox/
 *.txt
+
+# VSCode debug
+.vscode/
+
+# Prettier config
+.prettierrc
+keyHintTS.js

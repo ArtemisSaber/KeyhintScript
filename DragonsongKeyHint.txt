@@ -1,64 +1,64 @@
-U 0 9 8 9 
-9 8 E 6 7 6 
-J 5 J 7 6 5 3 4 
-4 5 
-J 5 4 3 4 
-4 3 D 1 2 1 
-M CTRL+5 M CTRL+2 CTRL+1 3 4 
-2 D J 7 9 
-M CTRL+5 M 2 1 CTRL+5 CTRL+3 CTRL+4 
-M 1 2 4 3 F 1 2 
-2 3 4 5 3 
-2 D 2 D 4 3 
-2 1 M 
-CTRL+4 CTRL+5 M 1 
-M CTRL+5 M 2 1 CTRL+5 CTRL+3 CTRL+4 
-M 1 2 4 3 F 1 2 
-2 3 4 5 3 
-2 D 2 D 4 3 
-M CTRL+5 M 2 1 CTRL+5 CTRL+3 CTRL+4 
-2 3 F 
-2 3 4 F 2 1 2 
-2 3 F 
-2 3 4 F 2 1 2 
-2 3 4 5 3 
-2 D 2 D 4 3 
-M CTRL+5 M CTRL+2 CTRL+1 3 4 
-U 0 9 8 9 
-9 8 E 6 7 6 
-J 5 J 7 6 5 3 4 
-4 5 
-J 5 4 3 4 
-4 3 D 1 2 1 
-M CTRL+5 M CTRL+2 CTRL+1 3 4 
-2 D J 7 9 
-M 1 2 3 1 
-M CTRL+5 CTRL+4 CTRL+3 CTRL+5 CTRL+4 
-M 1 2 3 1 
-M 1 2 D 4 2 
-2 4 
-4 3 2 3 2 
-2 4 
-4 3 4 
-2 4 3 4 
-4 3 2 3 2 
-2 4 
-J 5 4 
-1 A 1 F 2 A CTRL+4 CTRL+5 
-1 2 F 5 4 3 2 F 
-F 4 5 Q 4 
-F 3 F 3 5 4 
-1 A 1 F 2 A CTRL+4 CTRL+5 
-F 4 5 Q 4 
-F 3 F 3 5 4 
-1 A 1 F 2 
-2 S 2 4 F 
-3 F 3 5 4 F 5 
-6 Q 5 
-6 A 5 4 5 
-5 4 3 2 F 2 
-1 A 1 F 2 A CTRL+4 CTRL+5 
-CTRL+5 A 
-1 A CTRL+5 CTRL+4 CTRL+5 
-CTRL+5 CTRL+4 CTRL+3 CTRL+2 V CTRL+2 
-1 A 1 F 2 A 4 5 
+J+ U+ Y+ T+ Y+ 
+Y+ T+ ; O P O 
+J U J P O U T Y 
+Y U 
+J U Y T Y 
+Y T D W E W 
+J- U- J- E- W- T Y 
+E D J P Y+ 
+J- U- J- E W U- T- Y- 
+J- W E Y T F W E 
+E T Y U T 
+E D E D Y T 
+E W J- 
+Y- U- J- W 
+J- U- J- E W U- T- Y- 
+J- W E Y T F W E 
+E T Y U T 
+E D E D Y T 
+J- U- J- E W U- T- Y- 
+E T F 
+E T Y F E W E 
+E T F 
+E T Y F E W E 
+E T Y U T 
+E D E D Y T 
+J- U- J- E- W- T Y 
+J+ U+ Y+ T+ Y+ 
+Y+ T+ ; O P O 
+J U J P O U T Y 
+Y U 
+J U Y T Y 
+Y T D W E W 
+J- U- J- E- W- T Y 
+E D J P Y+ 
+J- W E T W 
+J- U- Y- T- U- Y- 
+J- W E T W 
+J- W E D Y E 
+E Y 
+Y T E T E 
+E Y 
+Y T Y 
+E Y T Y 
+Y T E T E 
+E Y 
+J U Y 
+W A W F E A Y- U- 
+W E F U Y T E F 
+F Y U K Y 
+F T F T U Y 
+W A W F E A Y- U- 
+F Y U K Y 
+F T F T U Y 
+W A W F E 
+E S E Y F 
+T F T U Y F U 
+O K U 
+O A U Y U 
+U Y T E F E 
+W A W F E A Y- U- 
+U- A 
+W A U- Y- U- 
+U- Y- T- E- F- E- 
+W A W F E A Y U 
