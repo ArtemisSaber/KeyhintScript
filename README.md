@@ -6,6 +6,8 @@ Please make sure only notes are contained
 # Dependency  
 NodeJS Environment  
 需要NodeJS环境运行  
+For typescript version, typescript compiler is required and make sure to run npm install before using  
+Typescript实现运行需要Typescript编译器,并且在运行前请执行npm install命令  
 # Usage  
 Clone this repo to your local machine at any desired location  
 将Repo克隆到本地任意目录  
