@@ -16,12 +16,22 @@ Check the file for any non-note anormaly and remove anything that is not a note
 Use terminal and run command  
 使用命令行工具执行命令  
 ```bash
-$ node ./keyhint.js filename
+$ npm run translate filename keymapFile
 ```
 filename parameter is the file that contains your scores  
 filename 参数为包含谱子的文件名  
+You can specify keymap by using an optional second parameter for keymap file  
+可以用第二个参数决定使用的音符映射  
 The script will automatic generate a keyhint text file under the repo directory  
 脚本将自动在Repo根目录下生成按键提示文本文件  
+
+# Example  
+Refer to Dragonsong.txt for scores  
+谱面要求参见Dragonsong.txt  
+
+# Advanced  
+To adapt multiple ranges just add more score => key mapping in keymap file  
+如想支持自定义音符/更多八度只需在Keymap文件中增加相应的音符对按键映射即可  
 
 # Support
 Support this layout by default

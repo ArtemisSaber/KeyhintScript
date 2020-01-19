@@ -1,16 +1,19 @@
 var args = process.argv.slice(2)
 //console.log(args)
 
-var fs = require('fs')
+const fs = require('fs')
+const path = require('path')
+
+
 if (!args[0]) {
-    args[0] = ".\\Dragonsong.txt"
+    console.log('Must specify a file to translate')
 }
 if(!args[1]){
-    args[1] = './keymap.json'
+    args[1] = 'keymap.json'
 }
 var getKeyMap =  (mapFile) => {
     return new Promise((resolve, reject) => {
-        fs.readFile(mapFile, 'utf-8', (err, contents) => {
+        fs.readFile(path.join(__dirname,mapFile), 'utf-8', (err, contents) => {
             if (err) {
                 reject(err)
             }
@@ -23,11 +26,11 @@ var getKeyMap =  (mapFile) => {
 
 var KeyMapPromise = getKeyMap(args[1])
 KeyMapPromise.then(keyMap => {
-    fs.readFile(args[0], 'utf-8', (error, contents) => {
+    fs.readFile(path.join(__dirname,args[0]), 'utf-8', (error, contents) => {
         if (error) {
             console.log(error)
         } else {
-            console.log("Read file " + args[0].split('\\')[1])
+            console.log("Read file " + args[0])
             var keyHintName = createKeyHintName(args[0])
             var keyHintFileName = keyHintName += ".txt"
             var keyHint = scoreToKeyHint(contents,keyMap)
@@ -46,7 +49,7 @@ KeyMapPromise.then(keyMap => {
 })
 
 var createKeyHintName = (fileName) => {
-    var realName = fileName.split('\\')[1]
+    var realName = fileName
     var keyHintName = realName.split('.')[0] += "KeyHint"
     console.log("Create file " + keyHintName + ".txt")
     return keyHintName
